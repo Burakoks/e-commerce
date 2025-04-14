@@ -17,8 +17,8 @@ Kullanıcıların ürünleri görüntüleyip sepete ekleyebileceği, adetlerini 
 - HTML5  
 - CSS3  
 - SCSS  
-- JavaScript (Vanilla JS)  
-- Fake Store API
+- JavaScript
+- API
 
   ## 📸 Ekran Görüntüsü
   ![](ekran.gif)
