@@ -1,0 +1,53 @@
+.products {
+    // Title
+    .heading {
+      text-align: center;
+      font-size: 64px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+  
+    // Container
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin-top: 32px;
+  
+      .product {
+        // Image
+        &-image {
+          width: 100%;
+          height: 350px;
+          object-fit: cover;
+        }
+        // Info
+        &-info {
+          display: flex;
+          flex-direction: column;
+        }
+        &-title {
+          font-size: 22px;
+          font-weight: 600;
+          color: $text-color;
+          margin: 12px 0 8px;
+        }
+        &-price {
+          font-size: 19px;
+          color: $main-color;
+          font-weight: 400;
+        }
+  
+        .add-to-cart {
+          background-color: $main-color;
+          color: $bg-color;
+          font-weight: 600;
+          padding: 10px;
+          text-align: center;
+          letter-spacing: 1px;
+          margin-top: 45px;
+          cursor: pointer;
+        }
+      }
+    }
+  }

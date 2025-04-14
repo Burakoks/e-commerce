@@ -1,0 +1,45 @@
+.footer {
+    background-color: $main-color;
+    padding: 40px 10px;
+    margin-top: 50px;
+    &-c {
+      display: grid;
+      grid-template-columns: 60% 20% 20%;
+      gap: 16px;
+    }
+    &-box {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-size: 128px;
+        color: $bg-color;
+        text-transform: uppercase;
+      }
+      .social {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        i {
+          background-color: $bg-color;
+          font-size: 20px;
+          padding: 10px;
+          color: $main-color;
+          border-radius: 50%;
+        }
+      }
+  
+      h3 {
+        color: $bg-color;
+      }
+  
+      a {
+        color: $bg-color;
+        padding-top: 30px;
+      }
+    }
+  
+    .copyright {
+      padding-top: 30px;
+      color: $bg-color;
+    }
+  }

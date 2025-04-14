@@ -1,0 +1,34 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap");
+
+// * Scss Imports
+@import "./variables";
+@import "./responsive";
+@import "./header";
+@import "./home";
+@import "./products";
+@import "./cart";
+@import "./footer";
+
+// Css Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Big Shoulders Text", sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+.container {
+  max-width: 1070px;
+  width: 100%;
+  margin: auto;
+}
