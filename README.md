@@ -20,4 +20,7 @@ Kullanıcıların ürünleri görüntüleyip sepete ekleyebileceği, adetlerini 
 - JavaScript (Vanilla JS)  
 - Fake Store API
 
+  ## 📸 Ekran Görüntüsü
+  ![](ekran.gif)
+
 
